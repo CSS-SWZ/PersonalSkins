@@ -1,0 +1,65 @@
+"Phrases"
+{
+	"Title"
+	{
+		"ru"		"Персональные скины"
+		"en"		"Personal skins"
+	}
+	"No skins"
+	{
+		"ru"		"Нет доступных скинов"
+		"en"		"No skins availbale"
+	}
+	"Permanently"
+	{
+		"ru"		"Навсегда"
+		"en"		"Permanently"
+	}
+	"Next map"
+	{
+		"ru"		"След карта"
+		"en"		"Next map"
+	
+	}
+	"Left"
+	{
+		"ru"		"Осталось"
+		"en"		"Left"
+	}
+	"secs"
+	{
+		"#format"	"{1:i}"
+		"ru"		"{1} с"
+		"en"		"{1} sec"
+	}
+	"mins"
+	{
+		"#format"	"{1:i}"
+		"ru"		"{1} м"
+		"en"		"{1} mins"
+	}
+	"hours"
+	{
+		"#format"	"{1:i}"
+		"ru"		"{1} ч"
+		"en"		"{1} hours"
+	}
+	"days"
+	{
+		"#format"	"{1:i}"
+		"ru"		"{1} дн"
+		"en"		"{1} days"
+	}
+	"Save skins limit"
+	{
+		"ru"		"Достигнут лимит по количеству одновременно сохраненных скинов!\nПопробуйте отключить какой-нибудь скин."
+		"en"		"The limit on the number of simultaneously saved skins has been reached!\Try to disable some skin."
+	
+	}
+	"Skins are disabled"
+	{
+		"ru"		"Сейчас скины отключены."
+		"en"		"Skins are currently disabled."
+	
+	}
+}
