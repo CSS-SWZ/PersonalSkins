@@ -34,9 +34,6 @@ stock void _DebugMessage(const char[] format, any ...)
 
 stock void _DebugClientMessage(int client, const char[] format, any ...)
 {
-	if(!Listen[client])
-		return;
-
 	int len = strlen(format) + 255;
 	char[] buffer = new char[len];
 	VFormat(buffer, len, format, 3);

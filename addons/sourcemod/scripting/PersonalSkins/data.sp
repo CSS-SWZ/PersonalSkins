@@ -59,7 +59,6 @@ void ParseClients(KeyValues kv)
 	int count;
 	int expired;
 	int time = GetTime();
-	int[] clientSkins = new int[SkinsCount * CLIENT_SKIN_DATA_SIZE];
 	GroupList = new ArrayList(ByteCountToCells(SkinsCount * 4));
 	do
 	{
@@ -98,7 +97,7 @@ void ParseClients(KeyValues kv)
 				CachedClientSkins[i] = -1;
 
 			count = 0;
-			Players.SetArray(buffer, clientSkins, SkinsCount * CLIENT_SKIN_DATA_SIZE, true);
+			Players.SetArray(buffer, CachedClientSkins, SkinsCount * CLIENT_SKIN_DATA_SIZE, true);
 		}
 	}
 	while(kv.GotoNextKey());

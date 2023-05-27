@@ -32,6 +32,7 @@ void SkinsMenu(int client, int startItem = 0)
 	{
 		for(int i; i < SkinsCount * CLIENT_SKIN_DATA_SIZE; i += CLIENT_SKIN_DATA_SIZE)
 		{
+
 			if(CachedClientSkins[i] == -1)
 				break;
 
