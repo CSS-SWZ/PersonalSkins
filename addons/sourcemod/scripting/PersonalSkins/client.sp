@@ -128,7 +128,7 @@ void GetClientCookieSkins(int client)
 	char buffer[256]; // Строка идентификаторов скинов, разделенных символом ;
 	char buffers[MAX_SAVED_SKINS][32]; // Массив с разделенными идентификаторами скинов
 	GetClientCookie(client, g_hCookie, buffer, sizeof(buffer));
-	if(buffer[0] && (count = ExplodeString(buffer, ";", buffers, MAX_SAVED_SKINS, 32)))
+	if(buffer[0] && (count = ExplodeString(buffer, ";", buffers, sizeof(buffers), sizeof(buffers[]))))
 	{
 		for(int i = 0; i < count; i++)
 		{

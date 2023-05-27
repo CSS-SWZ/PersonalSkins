@@ -16,6 +16,7 @@
 			Bug fix: Client have skin with no access
 			Bug fix: Skin dont auto set to client (rare bug)
 	5.2 -	Code improme
+	5.3 -	Minor bug fix
 */
 
 #include <sourcemod>
