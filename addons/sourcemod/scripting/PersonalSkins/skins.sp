@@ -3,6 +3,14 @@ void SetClientSkin(int client, int skin = -1, bool bTimer = true)
 	if(!SkinsEnabled)
 		return;
 
+	if(!IgnoreCustomModelscale)
+	{
+		float modelscale = GetEntPropFloat(client, Prop_Send, "m_flModelScale");
+
+		if(modelscale != 1.0)
+			return;
+	}
+
 	int team = GetClientTeam(client);
 	if(team < 2 || !IsPlayerAlive(client))
 		return;

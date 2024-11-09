@@ -17,6 +17,7 @@
 			Bug fix: Skin dont auto set to client (rare bug)
 	5.2 -	Code improme
 	5.3 -	Minor bug fix
+	5.4 -	Added cvar sm_personal_skins_ignore_custom_modelscale (for fix halfzombie classes)
 */
 
 #include <sourcemod>
@@ -48,7 +49,7 @@ public Plugin myinfo =
 	name = "PersonalSkins",
 	author = "hEl",
 	description = "Provides the ability to have personal skins for players and skins by flags",
-	version = "5.2",
+	version = "5.4",
 	url = "https://github.com/CSS-SWZ/PersonalSkins"
 };
 
