@@ -18,6 +18,7 @@
 	5.2 -	Code improme
 	5.3 -	Minor bug fix
 	5.4 -	Added cvar sm_personal_skins_ignore_custom_modelscale (for fix halfzombie classes)
+	5.5 -	Fix caching bug
 */
 
 #include <sourcemod>
@@ -49,7 +50,7 @@ public Plugin myinfo =
 	name = "PersonalSkins",
 	author = "hEl",
 	description = "Provides the ability to have personal skins for players and skins by flags",
-	version = "5.4",
+	version = "5.5",
 	url = "https://github.com/CSS-SWZ/PersonalSkins"
 };
 

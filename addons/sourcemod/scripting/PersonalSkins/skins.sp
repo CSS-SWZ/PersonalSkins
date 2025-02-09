@@ -106,6 +106,7 @@ void SkinsCacheClientBySteamID(int client)
 		Skin.IsPrecached = true;
 		Skins.SetArray(Skin.Identifier, Skin, sizeof(Skin), true);
 	}
+	ClientOfCachedSkins = 0;
 }
 
 void SkinsCacheClientByFlags(int client)

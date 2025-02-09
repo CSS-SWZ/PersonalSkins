@@ -10,7 +10,7 @@ public void OnClientPutInServer(int client)
 		
 	IntToString(GetSteamAccountID(client, true), Clients[client].SteamID, sizeof(Clients[].SteamID));
 
-	if(!Players.GetArray(Clients[client].SteamID, CachedClientSkins, CLIENT_SKIN_DATA_SIZE))
+	if(!GetClientSkinsBySteamId(client))
 	{
 		Clients[client].SteamID[0] = 0;
 	}
